@@ -1,4 +1,4 @@
-def is_strong(n:int)-> bool:
+def is_armstrong(n:int)-> bool:
     sum=0
     temp = n
     while temp>0:
@@ -11,10 +11,10 @@ def is_strong(n:int)-> bool:
     
 def main():
    num=int(input("Enter an integer:"))
-   if is_strong(num)==True:
-       print("The number is strong")
+   if is_armstrong(num)==True:
+       print("The number is armstrong")
    else:
-       print("The number is not strong")
+       print("The number is not armstrong")
        
 if __name__=="__main__":
     main() 
