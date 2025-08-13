@@ -28,4 +28,5 @@ def main():
     else:
         print("Lists are different.")
 if __name__ == "__main__":
+
     main()
