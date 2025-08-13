@@ -1,0 +1,261 @@
+Multi-OEM/Retail Project Version : CY22M05D18-R145.BL - BaseLine [MDL Forum ONLY] 
+ 
+The extracted OEM's folder structure appears correct. 
+ 
+Installed DotNet Framework{s} : v1.1.4322, v2.0.50727, v3.0.30729.4926, v3.5.30729.4926, v4.0.30319, v4.8.x or later {Rev:533320} 
+Installed Powershell Versions : 1.0, 2.0, 3.0, 4.0, 5.0, 5.1 
+PS Scripted Diagnostics       : Unrestricted 
+Unicode Mode In Operation     : Yes {Original Code 437} 
+Using 'MRPConfig.ini' File    : No - Using default settings. 
+ 
+MRP Extra Debug Logging Mode  : Enabled  
+W1x TitleBar Color            : Disabled - Default Color of theme will be used. 
+Highlight Colorization        : Disabled - Default Color of theme will be used. 
+Change Lock/Login Screen's    : Enabled  - Screen's will be replaced as defined by user's option. 
+Confirm File Delete           : Disabled - User is not notified when a file/folder is being deleted. {Win8.x/10 Kernels} 
+Show 'ThisPC' On Desktop      : Disabled - The icon is not displayed on the Desktop. 
+Project Uses Silent Operation : Disabled - Information screens will be shown. 
+MRP Deletes 'Scripts' Folder  : Enabled  - This will delete ALL the contents of the Scripts folder when MRP ends. 
+ 
+[LNSEP] ----------------------------------------------------------------------------------------------------------------  
+[START] Primary/Branding script routines begin. 
+[NOTES] WMIC command is present in this OS, normal processing should occur. 
+[NOTES] On Windows 11 Kernel OS's some options may be auto disabled, and/or not work as expected. 
+[NOTES] OS translations will be performed where possible on most of the options, unless the User has manually entered data. 
+[OSINF] ============================================================= 
+[OSINF] =================[ Detected OS Information ]================= 
+[OSINF] ============================================================= 
+[OSINF] OS Install Date/Time  : 11/29/2024 {UTC} -- 8:08pm 
+[OSINF] Installation Type     : Client {Non Server} 
+[OSINF] OS Media Boot Method  : Clean 
+[OSINF] HyperVisor Detected   : No 
+[OSINF] Domain Detected       : No 
+[OSINF] Full Name             : Microsoft Windows 11 Home 
+[OSINF] Stock Keeping Unit #  : 101 
+[OSINF] Version {Product}     : Windows 11 Home   
+[OSINF] Version {SKU}         : Windows Home 
+[OSINF] Edition {Registry}    : Core 
+[OSINF] Edition {Composition} : Core 
+[OSINF] Edition {Type}        : General 
+[OSINF] Architecture          : 64 Bit {AR:1} 
+[OSINF] Release Identifier    : 2009 
+[OSINF] Short Display Version : 22H2 
+[OSINF] Build Information     : 22621.1.amd64fre.ni_release.220506-1250 
+[OSINF] Internal Build Number : 22621 
+[OSINF] Experience Pack #     : 1000.22634.1000.0 
+[OSINF] Branch Code Name      : Nickel 
+[OSINF] Branch Reference      : ni_release 
+[OSINF] Reference Version     : 10.0.22621.1 
+[OSINF] ProductID Reference   : 3261 
+[OSINF] Update Build Revision : 674 
+[OSINF] Base Build Rev Number : 1 {0x1} 
+[OSINF] General UILang/Code   : en-US / 1033 {0x409h} 
+[OSINF] General Locale        : English - United States 
+[OSINF] Multiple Lang Names   : en-US 
+[OSINF] GeoID Nation ISO Loc  : United States [244] 
+[OSINF] Time Zone Data {Reg}  : Pacific Standard Time 
+[OSINF] Time Zone Data {TZU}  : Pacific Standard Time 
+[OSINF] Daylight Saving Mode  : No 
+[OSINF] DST Adjust Clock Mode : Enabled/Checked 
+[OSINF] Trusted Platform Modl : 2.0 [Enabled, Activated, Owned] 
+[OSINF] TPM 2.x Bypass Check  : No 
+[OSINF] SecureBoot Bypass     : No 
+[OSINF] Low RAM Bypass Check  : No 
+[OSINF] Allow W11 WU Upgrades : No 
+[MBINF] ============================================================= 
+[MBINF] =================[ Motherboard Information ]================= 
+[MBINF] ============================================================= 
+[MBINF] #01 CS Product Name   : [VivoBook_ASUSLaptop X515EA_X515EA]  
+[MBINF] #02 CS Model Name     : [VivoBook_ASUSLaptop X515EA_X515EA]  
+[MBINF] #03 CS Base Product   : [X515EA]  
+[MBINF] #04 CS Vendor Name    : [ASUSTeK COMPUTER INC.]  
+[MBINF] #05 CS System Name    : [ASUSTeK COMPUTER INC.]  
+[MBINF] #06 Baseboard Name    : [ASUSTeK COMPUTER INC.]  
+[MBINF] #08 BIOS or SLIC ID 0 : [N/A]  
+[MBINF] #08 BIOS or SLIC ID 1 : [_ASUS_ - 1072009]  
+[MBINF] #09 SLIC Information  : [No SLIC table present]  
+[MBINF] #09 SLIC Detect Plan  : [G4] [OA2T:0]  
+[MBINF] #11 MSDM Information  : [MSDM Table OK, 'Asus' Brand Detected]  
+[MBINF] Chassis Type          : [Notebook {10}]  
+[MBINF] PC System Type        : [Mobile {0x2}]  
+[BDINF] ============================================================= 
+[BDINF] ==================[ Main BIOS Information ]================== 
+[BDINF] ============================================================= 
+[BDINF] Manufacturer/Type     : [American Megatrends International, LLC.]  
+[BDINF] Version Number        : [X515EA.314]  
+[BDINF] SMBIOS Version        : [3.5]  
+[BDINF] Release Date          : [06/02/2023] {UTC or as defined by Manufacturer location}  
+[MPINF] ============================================================= 
+[MPINF] ===================[ Processor Information ]================= 
+[MPINF] ============================================================= 
+[MPINF] Full Name             : [11th Gen Intel{R} Core{TM} i5-1135G7 @ 2.40GHz]  
+[MPINF] Description           : [Intel64 Family 6 Model 140 Stepping 1]  
+[MPINF] Architecture          : [32/64 Bit]  
+[MPINF] Current Clock Speed   : [2419 Mhz] {Approx}  
+[MPINF] Max Clock Speed       : [2.42 GHz] {Approx}  
+[MPINF] L2 Cache Size         : [5120 MiB]  
+[MPINF] L3 Cache Size         : [8192 MiB]  
+[MPINF] Manufacturer ID Data  : [GenuineIntel]  
+[MPINF] Processor Family      : [205]  
+[MPINF] CPUID Signature       : [0806C1]  
+[MPINF] Revision Number {Hex} : [0x8c01]  
+[MPINF] Sockets/CPU's Present : [1]  
+[MPINF] Cores/Threads         : [4] / [8]   
+[MPINF] VT Firmware Mode      : [Enabled]  
+[MPINF] Notes: Data may vary depending if info is currently available within the database. 
+[MPINF]        Clock Speeds and Cache data are correct at the time of detection. 
+[MPINF]        Family data reference is obtained from SMBIOS, v2.0 to v2.5 is member 1 and later v2.6+ is member 2. 
+[MELSP] ============================================================= 
+[MELSP] ===============[ Intel: Meltdown/Spectre Data ]============== 
+[MELSP] ============================================================= 
+[MELSP] The Meltdown/Spectre routine was auto disabled due to not being fully compatible with this OS. 
+[MELSP] Later Intel 9th Gen and above CPU's have internal hardware-based protections against 2 variants of Meltdown/Spectre. 
+[MMINF] ============================================================= 
+[MMINF] ====================[ Memory Information ]=================== 
+[MMINF] ============================================================= 
+[MMINF] Total Physical        : 7.7 GiB  
+[MMINF] Used During Setup     : 1.41 GiB  
+[MMINF] Available             : 6.29 GiB [81.66%] 
+[MMINF] Type Number           : 3  
+[MMINF] Design Type           : DDR4 {26}  
+[MMINF] Category              : Non-ECC  
+[MMINF] Max Board Sockets     : 2 - May vary depending on the Motherboard's original test design/revision.  
+[MMINF] Max Capacity          : 65536 MiB - Depends on how the Chipset's memory array handles this information.  
+[MMINF] Max Per Socket/Slot   : 32768 MiB {Approx Value}  
+[SUOEA] ============================================================= 
+[SUOEA] ===[ Show Other User Options Applied/Enabled Or Disabled ]=== 
+[SUOEA] ============================================================= 
+[SUEOA] The 'MRPConfig.ini' file was not present, no options defined. 
+[REPDR] ====================================================== 
+[REPDR] ===[ Retail.txt/Ei.cfg/PID.txt Detection Routines ]=== 
+[REPDR] ====================================================== 
+[REPDR] Note: Some results may be shown as 'not detected' if the install medium was removed during OS installation. 
+[REPDR] The 'Retail.txt' file was not detected within the 'Scripts' folder. 
+[REPDR] The 'ei.cfg' file was not detected.  
+[REPDR] The 'PID.txt' file was not detected.  
+[CKDMI] ============================================================= 
+[CKDMI] ===[ Querying DMI For OEM Manufacturer Brand Information ]=== 
+[CKDMI] ============================================================= 
+[CKDCF] No DMI conflicts was found. 
+[CKDCF] DMI query routine has completed. 
+[DCTPR] ============================================= 
+[DCTPR] ===[ DMI or Custom Theme Data Processing ]=== 
+[DCTPR] ============================================= 
+[DCTPR] Asus [#04] Manufacturer was detected for automated theme/branding. 
+[DCTPR] ======================================= 
+[SYSPD] ======================================= 
+[SYSPD] ===[ Model Name Processing Routine ]=== 
+[SYSPD] ======================================= 
+[SETMN] BIOS defined "VivoBook_ASUSLaptop X515EA_X515EA" has been applied for the Computer's 'Model' Name. {Validated}
+[TBPRT] =================================== 
+[TBPRT] ===[ Theme Processing Routines ]=== 
+[TBPRT] =================================== 
+[USRFT] The User's specified theme was not defined.  
+[TBTMS] =========================================== 
+[TBTMS] ===[ Brand Transfer Management Routine ]=== 
+[TBTMS] =========================================== 
+[TBTMS] Brand theme that will be attempted to be used : Asus 
+[TBTMS] Original 'WallpaperStyle' value found within the 'Asus.theme' file : 2 {Stretch image to display resolution} 
+[RMXML] The 'OOBE.xml' file has been processed by Windows Setup.  
+[WPCHK] Wallpaper.jpg was transferred. 
+[BGDFC] The brand's 'Backgrounds' folder was created. 
+[BGDFC] The brand's 'BackgroundDefault.jpg' file was generated from the 'Wallpaper.jpg' image. 
+[W8XAP] =========================================================== 
+[W8XAP] ===[ Primary User Account Picture {BMP/PNG} Management ]=== 
+[W8XAP] =========================================================== 
+[UBREP] The primary 'User' account picture{s} was replaced with the theme's 'User810' image file. 
+[WXAP2] ============================================================ 
+[WXAP2] ===[ Additional User Account Picture's {PNG} Management ]=== 
+[WXAP2] ============================================================ 
+[UPREP] User-32.png was replaced.  
+[UPREP] User-40.png was replaced. 
+[UPREP] User-48.png was replaced.  
+[UPREP] User-192.png was replaced.  
+[X8LLR] ==================================== 
+[X8LLR] ===[ Lock\Log-On Screen Routine ]=== 
+[X8LLR] ==================================== 
+[WX8LS] Lock Screen 'img100' was replaced. Original renamed as img0100. 
+[WX8LO] The 'Log-On' Background 'img105' was replaced. Original renamed as img0105. 
+[OTFTR] ============================================ 
+[OTFTR] ===[ Brand/Theme Files Transfer Routine ]=== 
+[OTFTR] ============================================ 
+[OTFTR] The OS branding 'info' theme folder was created. 
+[EWBSC] Additional found 'Wallpaper' file{s} was copied over for use as 'Desktop' backgrounds or a slideshow later, if required. 
+[OTFTR] The theme's branding files have been transferred. 
+[ATREP] The original 'Aero.theme' has been backed up and replaced. 
+[ICTAO] Registry sections for 'InstallTheme' and 'CurrentTheme' was set to '$OEM$.theme'. 
+[ATHBA] Asus OEM brand theme was applied.  
+[BSHCS] ============================================ 
+[BSHCS] ===[ Primary/Branding Script Completion ]=== 
+[BSHCS] ============================================ 
+[BSHCS] The Primary/Branding script has completed. 
+[BSHCS] ============================================ 
+[RBOOT] -----------------------------[ OOBE Reboot via Windows Setup ]----------------------------- 
+[ADMAN] =================================================== 
+[ADMAN] ============[ Add-On Manager: Started ]============ 
+[ADMAN] =================================================== 
+[TFFIB] The theme's registry fix was applied. Reboot is required after setup completed. 
+[XCORE] Detected that a 'Core' Edition was installed, two reboots are required to set the theme fully. 
+[SATOU] =================================================== 
+[SATOU] ====[ User Options that have now been applied ]==== 
+[SATOU] =================================================== 
+[WSTYL] Original 'WallpaperStyle' registry value: 2 - Stretch image to display resolution. 
+[SCADV] The shortcut's arrow design is set to: OS Default  
+[TBVW1] Taskbar view options have been auto disabled as they can cause issues on this OS Build.  
+[CMSDM] =============================================== 
+[CMSDM] ===[ Querying BIOS for any MSDM Table Data ]=== 
+[CMSDM] =============================================== 
+[CMSDM] Edition Installed {E}  : Core {3261}  
+[CMSDM] MSDM Key Applied       : Yes  
+[CMSDM] Detected Key Group ID  : 3562   
+[CMSDM] Key Edition ID         : CoreSingleLanguage  
+[CMSDM] Key Information        : Win 10 CoreSingleLanguage  
+[CMSDM] Key Data {Partial}     : xxxxx-xxxxx-xxxxx-xxxxx-V8RTQ  
+[CMSDM] Detection Routine Used : 1  
+[CMSDM] MSDM Brand Name        : _ASUS_  
+[CMSDM] Reason Status          : MSDM Key will be applied for the currently installed OS Edition  
+[CMSDM] The detected MSDM Key can be used for the Edition currently installed, saved and applied. 
+[CMSDM] The MSDM Key details have been saved to 'C:\MSDM-Key.txt' 
+[USR1X] ============================================================================== 
+[USR1X] ===[ Colorization, User Account Pictures and Remove DefaultUser0 Routines ]=== 
+[USR1X] ============================================================================== 
+[USRAC] The 'Enhanced' Log-On screen registry entry has been applied. 
+[USRAC] User Account Picture's registry entries applied.  
+[USRRO] Windows 'Registered Owner' {Winver} registry entry was corrected and set to the primary username. 
+[USRD0] The 'defaultuser0' account was not present. 
+[AMBPS] ================================================================= 
+[AMBPS] ===[ Check BIOS/Boot Mode, OS Partition Type/Controller Mode ]=== 
+[AMBPS] ================================================================= 
+[AMBPS] BIOS/Boot Mode  : UEFI  
+[AMBPS] Partition Type  : GPT  
+[AMBPS] Secure Boot     : Enabled  
+[EXTSR] ===================================== 
+[EXTSR] ===[ External Add-On's Detection ]=== 
+[EXTSR] ===================================== 
+[EXTSR] No external Add-On's was detected or processed. 
+[CHKLS] ============================================= 
+[CHKLS] ===[ Detecting License\Activation Status ]=== 
+[CHKLS] ============================================= 
+[CHKLS] License/Activation Status  : Notification 
+[CHKLS] License Channel Status     : OEM_DM/MSDM {CTT} 
+[CHKLS] License Status Reason Code : 0xC004F034 
+[CHKLS] License not found/invalid or could not connect to the Activation Server. 
+[CHKLS] Online connection required to complete MSDM Activation. 
+[ADMAN] =============================== 
+[ADMAN] ===[ Finalization Routines ]=== 
+[ADMAN] =============================== 
+[CLNUP] Clean Up Routine Processed. 
+[ADMAN] =================================== 
+[ADMAN] ===[ Add-On Manager: Completed ]=== 
+[ADMAN] =================================== 
+[ENDAM] ----------------------------------------------------------------------------- 
+[ENDAM] ========================================================================================= 
+[ENDAM] =                                                                                       = 
+[ENDAM] = Please Note: As User options, UserTweaks or Wintel scripts have been detected it is   = 
+[ENDAM] =              required for a reboot cycle to allow these options/tweaks to take full   = 
+[ENDAM] =              effect. This also allows any Theme related processes to complete.        = 
+[ENDAM] =                                                                                       = 
+[ENDAM] ========================================================================================= 
+[ENDED] 
+The Multi-OEM/Retail Project has completed. 
+ 
